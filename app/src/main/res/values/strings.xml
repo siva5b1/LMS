@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LibraryManagementSystem</string>
+    <string-array name="bnames">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>DBMS</item>
+        <item>OS</item>
+        <item>DS</item>
+    </string-array>
+</resources>
