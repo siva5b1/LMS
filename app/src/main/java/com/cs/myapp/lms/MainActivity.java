@@ -36,7 +36,10 @@ Button b;
         b.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
+                EditText editText = (EditText)findViewById(R.id.emp_id);
+                String text = editText.getText().toString();
                 Intent intent = new Intent(context, Return.class);
+                intent.putExtra("empid",text);
                 startActivity(intent);
             }
         });

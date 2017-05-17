@@ -9,4 +9,148 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.cs.myapp.lms.Return">
 
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="18dp"
+        android:text="Emp_Id"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv1"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="15dp"
+        android:text="Book_Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tv1"
+        android:layout_marginEnd="83dp" />
+
+    <TextView
+        android:id="@+id/tv22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv11"
+        android:layout_alignTop="@+id/tv2" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv2"
+        android:layout_below="@+id/tv2"
+        android:layout_marginTop="15dp"
+        android:text="Book_Id"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tv3"
+        android:layout_toEndOf="@+id/tv22" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv3"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="15dp"
+        android:text="Issue_Date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv4"
+        android:layout_toEndOf="@+id/tv22" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv4"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="15dp"
+        android:text="Return Date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv5"
+        android:layout_alignStart="@+id/tv44" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv5"
+        android:layout_below="@+id/tv5"
+        android:layout_marginTop="15dp"
+        android:text="Actual Returned On"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv55"
+        android:layout_alignTop="@+id/tv6"
+        android:text="Select Date" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv6"
+        android:layout_below="@+id/tv6"
+        android:layout_marginTop="15dp"
+        android:text="Remarks:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/tv77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv7"
+        android:layout_below="@+id/tv7"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="text|textShortMessage"
+        android:text="Remarks" />
+
+    <Button
+        android:id="@+id/rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv77"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Return Book" />
+
 </RelativeLayout>
